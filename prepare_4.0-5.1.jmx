@@ -323,7 +323,7 @@
           <boolProp name="keepAlive">true</boolProp>
           <stringProp name="connectionAge">5000</stringProp>
           <stringProp name="checkQuery">Select 1</stringProp>
-          <stringProp name="dbUrl">jdbc:sqlite:D:\黑马一套\7-接口测试\项目\studentManagementSystem\db.sqlite3</stringProp>
+          <stringProp name="dbUrl">jdbc:sqlite:D:\接口测试\项目\studentManagementSystem\db.sqlite3</stringProp>
           <stringProp name="driver">org.sqlite.JDBC</stringProp>
           <stringProp name="username"></stringProp>
           <stringProp name="password"></stringProp>
@@ -917,7 +917,7 @@ select slogan from departments;</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">300</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
