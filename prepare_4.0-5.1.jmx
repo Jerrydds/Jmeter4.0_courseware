@@ -375,8 +375,8 @@ update departments set dep_name=&quot;XX学院&quot; where dep_id=&quot;T006&quo
           <boolProp name="keepAlive">true</boolProp>
           <stringProp name="connectionAge">5000</stringProp>
           <stringProp name="checkQuery">Select 1</stringProp>
-          <stringProp name="dbUrl">jdbc:mysql://127.0.0.1:3306/iwebshop</stringProp>
-          <stringProp name="driver">com.mysql.jdbc.Driver</stringProp>
+          <stringProp name="dbUrl">jdbc:mysql://192.168.100.13:3306/Test_Tracking1?serverTimezone=UTC&amp;characterEncoding=utf8&amp;useUnicode=true&amp;useSSL=false</stringProp>
+          <stringProp name="driver">com.mysql.cj.jdbc.Driver</stringProp>
           <stringProp name="username">root</stringProp>
           <stringProp name="password"></stringProp>
           <stringProp name="initQuery"></stringProp>
